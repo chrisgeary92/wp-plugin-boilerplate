@@ -64,6 +64,27 @@ class App
      */
     protected function hooks()
     {
+        register_activation_hook(PLUGIN_BOILERPLATE_FILE, [$this, 'activation']);
+        register_deactivation_hook(PLUGIN_BOILERPLATE_FILE, [$this, 'deactivation']);
+    }
+
+    /**
+     * Fires on plugin activation
+     *
+     * @return void
+     */
+    public function activation()
+    {
+        // ...
+    }
+
+    /**
+     * Fires on plugin deactivation
+     *
+     * @return void
+     */
+    public function deactivation()
+    {
         // ...
     }
 }
