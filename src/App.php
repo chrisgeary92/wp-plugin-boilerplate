@@ -1,6 +1,6 @@
 <?php
 
-namespace Chrisgeary92\Boilerplate;
+namespace Crgeary\Boilerplate;
 
 class App
 {

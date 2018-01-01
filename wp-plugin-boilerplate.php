@@ -18,4 +18,4 @@ define('PLUGIN_BOILERPLATE_URL', untrailingslashit(plugin_dir_url(__FILE__)));
 
 require_once (PLUGIN_BOILERPLATE_PATH.'/src/App.php');
 
-Chrisgeary92\Boilerplate\App::instance();
+Crgeary\Boilerplate\App::instance();

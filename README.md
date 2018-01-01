@@ -9,6 +9,6 @@ A WordPress plugin boilerplate.
 You should replace/rename the following:
 
 * Plugin file: `wp-plugin-boilerplate.php`
-* PHP namespace: `Chrisgeary92\Boilerplate`
+* PHP namespace: `Crgeary\Boilerplate`
 * PHP constant prefix: `PLUGIN_BOILERPLATE`
 * Plugin header/comment
